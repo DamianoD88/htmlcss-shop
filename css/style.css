@@ -26,14 +26,26 @@ clearfix::after {
 
 }
 
-.Box:hover .img1 {
-    background-image: url(../img/1b.webp);
-}
 
 .img1 {
     height: 100%;
     width: 100%;
 
+}
+
+.effetto-hover {
+    height: 100%;
+    width: 100%;
+    display: none;
+
+}
+
+.Box:hover .img1 {
+    display: none;
+}
+
+.Box:hover .effetto-hover {
+    display: block;
 }
 
 .heart {
@@ -59,7 +71,7 @@ clearfix::after {
 .tessuto {
     position: absolute;
     bottom: 20px;
-    left: 80px;
+    left: 70px;
     font-size: 20px;
     padding: 2px 10px;
     color: white;
