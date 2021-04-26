@@ -105,3 +105,11 @@ clearfix::after {
     background-color: rgb(60, 155, 60);
     padding: 20px;
 }
+
+.no-color{
+    font-size: 27px;
+    color: black;
+    position: absolute;
+    bottom: -105px;
+
+}
