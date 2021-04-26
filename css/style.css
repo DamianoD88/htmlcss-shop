@@ -9,6 +9,7 @@
     height: 1800px;
     border: 3px solid red;
     margin: 0 auto;
+
 }
 
 clearfix::after {
@@ -21,11 +22,46 @@ clearfix::after {
     height: 700px;
     width: calc(100% / 3 - 5px);
     float: left;
-    background-color: white;
+    position: relative;
+
+}
+
+.Box:hover .img1 {
+    background-image: url(../img/1b.webp);
 }
 
 .img1 {
     height: 100%;
     width: 100%;
 
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    font-size: 80px;
+    padding: 2px 30px;
+    background-color: white;
+}
+
+.sconti {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    font-size: 20px;
+    padding: 2px 10px;
+    color: white;
+    background-color: red;
+
+}
+
+.tessuto {
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    font-size: 20px;
+    padding: 2px 10px;
+    color: white;
+    background-color: green;
 }
