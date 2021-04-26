@@ -96,3 +96,11 @@ clearfix::after {
 
 /* fine prima immagine */
 
+/* inizio  terza immagine */
+
+.descrizione-color {
+    font-size: 27px;
+    text-align: left;
+    background-color: rgb(60, 155, 60);
+    padding: 20px;
+}
