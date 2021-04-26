@@ -83,5 +83,16 @@ clearfix::after {
     background-color: green;
 }
 
+.descrizione {
+    font-size: 25px;
+}
+
+.costo {
+    font-size: 27px;
+    color: red;
+    position: absolute;
+    bottom: -105px;
+}
+
 /* fine prima immagine */
 
