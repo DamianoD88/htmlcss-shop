@@ -1,0 +1,31 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    height: 1800px;
+    border: 3px solid red;
+    margin: 0 auto;
+}
+
+clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.Box {
+    height: 700px;
+    width: calc(100% / 3 - 5px);
+    float: left;
+    background-color: white;
+}
+
+.img1 {
+    height: 100%;
+    width: 100%;
+
+}
